@@ -1,0 +1,771 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C33066CC1BE05863003B4E41 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33066CB1BE05863003B4E41 /* AppDelegate.swift */; };
+		C33066CE1BE05863003B4E41 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33066CD1BE05863003B4E41 /* ViewController.swift */; };
+		C33066D11BE05863003B4E41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C33066CF1BE05863003B4E41 /* Main.storyboard */; };
+		C33066D31BE05863003B4E41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C33066D21BE05863003B4E41 /* Assets.xcassets */; };
+		C33066D61BE05863003B4E41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C33066D41BE05863003B4E41 /* LaunchScreen.storyboard */; };
+		C33066E11BE05863003B4E41 /* Practice_MidtermTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33066E01BE05863003B4E41 /* Practice_MidtermTests.swift */; };
+		C33066EC1BE05863003B4E41 /* Practice_MidtermUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33066EB1BE05863003B4E41 /* Practice_MidtermUITests.swift */; };
+		C33066F11BE05863003B4E41 /* Practice Midterm WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = C33066F01BE05863003B4E41 /* Practice Midterm WatchKit App.app */; };
+		C33066F71BE05863003B4E41 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C33066F51BE05863003B4E41 /* Interface.storyboard */; };
+		C33066F91BE05863003B4E41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C33066F81BE05863003B4E41 /* Assets.xcassets */; };
+		C33067001BE05863003B4E41 /* Practice Midterm WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C33066FF1BE05863003B4E41 /* Practice Midterm WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C33067071BE05863003B4E41 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33067061BE05863003B4E41 /* InterfaceController.swift */; };
+		C33067091BE05863003B4E41 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33067081BE05863003B4E41 /* ExtensionDelegate.swift */; };
+		C330670B1BE05863003B4E41 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C330670A1BE05863003B4E41 /* NotificationController.swift */; };
+		C330670D1BE05863003B4E41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C330670C1BE05863003B4E41 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C33066DD1BE05863003B4E41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C33066C01BE05862003B4E41 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C33066C71BE05863003B4E41;
+			remoteInfo = "Practice Midterm";
+		};
+		C33066E81BE05863003B4E41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C33066C01BE05862003B4E41 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C33066C71BE05863003B4E41;
+			remoteInfo = "Practice Midterm";
+		};
+		C33066F21BE05863003B4E41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C33066C01BE05862003B4E41 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C33066EF1BE05863003B4E41;
+			remoteInfo = "Practice Midterm WatchKit App";
+		};
+		C33067011BE05863003B4E41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C33066C01BE05862003B4E41 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C33066FE1BE05863003B4E41;
+			remoteInfo = "Practice Midterm WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C33067141BE05863003B4E41 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C33067001BE05863003B4E41 /* Practice Midterm WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C33067181BE05863003B4E41 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				C33066F11BE05863003B4E41 /* Practice Midterm WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C33066C81BE05863003B4E41 /* Practice Midterm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Practice Midterm.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C33066CB1BE05863003B4E41 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C33066CD1BE05863003B4E41 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C33066D01BE05863003B4E41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C33066D21BE05863003B4E41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C33066D51BE05863003B4E41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C33066D71BE05863003B4E41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C33066DC1BE05863003B4E41 /* Practice MidtermTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Practice MidtermTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C33066E01BE05863003B4E41 /* Practice_MidtermTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Practice_MidtermTests.swift; sourceTree = "<group>"; };
+		C33066E21BE05863003B4E41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C33066E71BE05863003B4E41 /* Practice MidtermUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Practice MidtermUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C33066EB1BE05863003B4E41 /* Practice_MidtermUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Practice_MidtermUITests.swift; sourceTree = "<group>"; };
+		C33066ED1BE05863003B4E41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C33066F01BE05863003B4E41 /* Practice Midterm WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Practice Midterm WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C33066F61BE05863003B4E41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		C33066F81BE05863003B4E41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C33066FA1BE05863003B4E41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C33066FF1BE05863003B4E41 /* Practice Midterm WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Practice Midterm WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C33067051BE05863003B4E41 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		C33067061BE05863003B4E41 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		C33067081BE05863003B4E41 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		C330670A1BE05863003B4E41 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		C330670C1BE05863003B4E41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C330670E1BE05863003B4E41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C33066C51BE05863003B4E41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C33066D91BE05863003B4E41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C33066E41BE05863003B4E41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C33066FC1BE05863003B4E41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C33066BF1BE05862003B4E41 = {
+			isa = PBXGroup;
+			children = (
+				C33066CA1BE05863003B4E41 /* Practice Midterm */,
+				C33066DF1BE05863003B4E41 /* Practice MidtermTests */,
+				C33066EA1BE05863003B4E41 /* Practice MidtermUITests */,
+				C33066F41BE05863003B4E41 /* Practice Midterm WatchKit App */,
+				C33067031BE05863003B4E41 /* Practice Midterm WatchKit Extension */,
+				C33066C91BE05863003B4E41 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C33066C91BE05863003B4E41 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C33066C81BE05863003B4E41 /* Practice Midterm.app */,
+				C33066DC1BE05863003B4E41 /* Practice MidtermTests.xctest */,
+				C33066E71BE05863003B4E41 /* Practice MidtermUITests.xctest */,
+				C33066F01BE05863003B4E41 /* Practice Midterm WatchKit App.app */,
+				C33066FF1BE05863003B4E41 /* Practice Midterm WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C33066CA1BE05863003B4E41 /* Practice Midterm */ = {
+			isa = PBXGroup;
+			children = (
+				C33066CB1BE05863003B4E41 /* AppDelegate.swift */,
+				C33066CD1BE05863003B4E41 /* ViewController.swift */,
+				C33066CF1BE05863003B4E41 /* Main.storyboard */,
+				C33066D21BE05863003B4E41 /* Assets.xcassets */,
+				C33066D41BE05863003B4E41 /* LaunchScreen.storyboard */,
+				C33066D71BE05863003B4E41 /* Info.plist */,
+			);
+			path = "Practice Midterm";
+			sourceTree = "<group>";
+		};
+		C33066DF1BE05863003B4E41 /* Practice MidtermTests */ = {
+			isa = PBXGroup;
+			children = (
+				C33066E01BE05863003B4E41 /* Practice_MidtermTests.swift */,
+				C33066E21BE05863003B4E41 /* Info.plist */,
+			);
+			path = "Practice MidtermTests";
+			sourceTree = "<group>";
+		};
+		C33066EA1BE05863003B4E41 /* Practice MidtermUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C33066EB1BE05863003B4E41 /* Practice_MidtermUITests.swift */,
+				C33066ED1BE05863003B4E41 /* Info.plist */,
+			);
+			path = "Practice MidtermUITests";
+			sourceTree = "<group>";
+		};
+		C33066F41BE05863003B4E41 /* Practice Midterm WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				C33066F51BE05863003B4E41 /* Interface.storyboard */,
+				C33066F81BE05863003B4E41 /* Assets.xcassets */,
+				C33066FA1BE05863003B4E41 /* Info.plist */,
+			);
+			path = "Practice Midterm WatchKit App";
+			sourceTree = "<group>";
+		};
+		C33067031BE05863003B4E41 /* Practice Midterm WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C33067061BE05863003B4E41 /* InterfaceController.swift */,
+				C33067081BE05863003B4E41 /* ExtensionDelegate.swift */,
+				C330670A1BE05863003B4E41 /* NotificationController.swift */,
+				C330670C1BE05863003B4E41 /* Assets.xcassets */,
+				C330670E1BE05863003B4E41 /* Info.plist */,
+				C33067041BE05863003B4E41 /* Supporting Files */,
+			);
+			path = "Practice Midterm WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		C33067041BE05863003B4E41 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C33067051BE05863003B4E41 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C33066C71BE05863003B4E41 /* Practice Midterm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C33067191BE05863003B4E41 /* Build configuration list for PBXNativeTarget "Practice Midterm" */;
+			buildPhases = (
+				C33066C41BE05863003B4E41 /* Sources */,
+				C33066C51BE05863003B4E41 /* Frameworks */,
+				C33066C61BE05863003B4E41 /* Resources */,
+				C33067181BE05863003B4E41 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C33066F31BE05863003B4E41 /* PBXTargetDependency */,
+			);
+			name = "Practice Midterm";
+			productName = "Practice Midterm";
+			productReference = C33066C81BE05863003B4E41 /* Practice Midterm.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C33066DB1BE05863003B4E41 /* Practice MidtermTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C330671C1BE05863003B4E41 /* Build configuration list for PBXNativeTarget "Practice MidtermTests" */;
+			buildPhases = (
+				C33066D81BE05863003B4E41 /* Sources */,
+				C33066D91BE05863003B4E41 /* Frameworks */,
+				C33066DA1BE05863003B4E41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C33066DE1BE05863003B4E41 /* PBXTargetDependency */,
+			);
+			name = "Practice MidtermTests";
+			productName = "Practice MidtermTests";
+			productReference = C33066DC1BE05863003B4E41 /* Practice MidtermTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C33066E61BE05863003B4E41 /* Practice MidtermUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C330671F1BE05863003B4E41 /* Build configuration list for PBXNativeTarget "Practice MidtermUITests" */;
+			buildPhases = (
+				C33066E31BE05863003B4E41 /* Sources */,
+				C33066E41BE05863003B4E41 /* Frameworks */,
+				C33066E51BE05863003B4E41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C33066E91BE05863003B4E41 /* PBXTargetDependency */,
+			);
+			name = "Practice MidtermUITests";
+			productName = "Practice MidtermUITests";
+			productReference = C33066E71BE05863003B4E41 /* Practice MidtermUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		C33066EF1BE05863003B4E41 /* Practice Midterm WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C33067151BE05863003B4E41 /* Build configuration list for PBXNativeTarget "Practice Midterm WatchKit App" */;
+			buildPhases = (
+				C33066EE1BE05863003B4E41 /* Resources */,
+				C33067141BE05863003B4E41 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C33067021BE05863003B4E41 /* PBXTargetDependency */,
+			);
+			name = "Practice Midterm WatchKit App";
+			productName = "Practice Midterm WatchKit App";
+			productReference = C33066F01BE05863003B4E41 /* Practice Midterm WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		C33066FE1BE05863003B4E41 /* Practice Midterm WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C33067111BE05863003B4E41 /* Build configuration list for PBXNativeTarget "Practice Midterm WatchKit Extension" */;
+			buildPhases = (
+				C33066FB1BE05863003B4E41 /* Sources */,
+				C33066FC1BE05863003B4E41 /* Frameworks */,
+				C33066FD1BE05863003B4E41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Practice Midterm WatchKit Extension";
+			productName = "Practice Midterm WatchKit Extension";
+			productReference = C33066FF1BE05863003B4E41 /* Practice Midterm WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C33066C01BE05862003B4E41 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Hinck, Johann A";
+				TargetAttributes = {
+					C33066C71BE05863003B4E41 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					C33066DB1BE05863003B4E41 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = C33066C71BE05863003B4E41;
+					};
+					C33066E61BE05863003B4E41 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = C33066C71BE05863003B4E41;
+					};
+					C33066EF1BE05863003B4E41 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					C33066FE1BE05863003B4E41 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = C33066C31BE05862003B4E41 /* Build configuration list for PBXProject "Practice Midterm" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C33066BF1BE05862003B4E41;
+			productRefGroup = C33066C91BE05863003B4E41 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C33066C71BE05863003B4E41 /* Practice Midterm */,
+				C33066DB1BE05863003B4E41 /* Practice MidtermTests */,
+				C33066E61BE05863003B4E41 /* Practice MidtermUITests */,
+				C33066EF1BE05863003B4E41 /* Practice Midterm WatchKit App */,
+				C33066FE1BE05863003B4E41 /* Practice Midterm WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C33066C61BE05863003B4E41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C33066D61BE05863003B4E41 /* LaunchScreen.storyboard in Resources */,
+				C33066D31BE05863003B4E41 /* Assets.xcassets in Resources */,
+				C33066D11BE05863003B4E41 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C33066DA1BE05863003B4E41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C33066E51BE05863003B4E41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C33066EE1BE05863003B4E41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C33066F91BE05863003B4E41 /* Assets.xcassets in Resources */,
+				C33066F71BE05863003B4E41 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C33066FD1BE05863003B4E41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C330670D1BE05863003B4E41 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C33066C41BE05863003B4E41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C33066CE1BE05863003B4E41 /* ViewController.swift in Sources */,
+				C33066CC1BE05863003B4E41 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C33066D81BE05863003B4E41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C33066E11BE05863003B4E41 /* Practice_MidtermTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C33066E31BE05863003B4E41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C33066EC1BE05863003B4E41 /* Practice_MidtermUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C33066FB1BE05863003B4E41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C330670B1BE05863003B4E41 /* NotificationController.swift in Sources */,
+				C33067091BE05863003B4E41 /* ExtensionDelegate.swift in Sources */,
+				C33067071BE05863003B4E41 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C33066DE1BE05863003B4E41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C33066C71BE05863003B4E41 /* Practice Midterm */;
+			targetProxy = C33066DD1BE05863003B4E41 /* PBXContainerItemProxy */;
+		};
+		C33066E91BE05863003B4E41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C33066C71BE05863003B4E41 /* Practice Midterm */;
+			targetProxy = C33066E81BE05863003B4E41 /* PBXContainerItemProxy */;
+		};
+		C33066F31BE05863003B4E41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C33066EF1BE05863003B4E41 /* Practice Midterm WatchKit App */;
+			targetProxy = C33066F21BE05863003B4E41 /* PBXContainerItemProxy */;
+		};
+		C33067021BE05863003B4E41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C33066FE1BE05863003B4E41 /* Practice Midterm WatchKit Extension */;
+			targetProxy = C33067011BE05863003B4E41 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C33066CF1BE05863003B4E41 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C33066D01BE05863003B4E41 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C33066D41BE05863003B4E41 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C33066D51BE05863003B4E41 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		C33066F51BE05863003B4E41 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C33066F61BE05863003B4E41 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C330670F1BE05863003B4E41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C33067101BE05863003B4E41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C33067121BE05863003B4E41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Practice Midterm WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Concordia.Practice-Midterm.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		C33067131BE05863003B4E41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Practice Midterm WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Concordia.Practice-Midterm.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		C33067161BE05863003B4E41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = Practice_Midterm_WatchKit_Extension;
+				INFOPLIST_FILE = "Practice Midterm WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Concordia.Practice-Midterm.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		C33067171BE05863003B4E41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = Practice_Midterm_WatchKit_Extension;
+				INFOPLIST_FILE = "Practice Midterm WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Concordia.Practice-Midterm.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		C330671A1BE05863003B4E41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Practice Midterm/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Concordia.Practice-Midterm";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C330671B1BE05863003B4E41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Practice Midterm/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Concordia.Practice-Midterm";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C330671D1BE05863003B4E41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Practice MidtermTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Concordia.Practice-MidtermTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Practice Midterm.app/Practice Midterm";
+			};
+			name = Debug;
+		};
+		C330671E1BE05863003B4E41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Practice MidtermTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Concordia.Practice-MidtermTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Practice Midterm.app/Practice Midterm";
+			};
+			name = Release;
+		};
+		C33067201BE05863003B4E41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Practice MidtermUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Concordia.Practice-MidtermUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Practice Midterm";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C33067211BE05863003B4E41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Practice MidtermUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Concordia.Practice-MidtermUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Practice Midterm";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C33066C31BE05862003B4E41 /* Build configuration list for PBXProject "Practice Midterm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C330670F1BE05863003B4E41 /* Debug */,
+				C33067101BE05863003B4E41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C33067111BE05863003B4E41 /* Build configuration list for PBXNativeTarget "Practice Midterm WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C33067121BE05863003B4E41 /* Debug */,
+				C33067131BE05863003B4E41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C33067151BE05863003B4E41 /* Build configuration list for PBXNativeTarget "Practice Midterm WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C33067161BE05863003B4E41 /* Debug */,
+				C33067171BE05863003B4E41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C33067191BE05863003B4E41 /* Build configuration list for PBXNativeTarget "Practice Midterm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C330671A1BE05863003B4E41 /* Debug */,
+				C330671B1BE05863003B4E41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C330671C1BE05863003B4E41 /* Build configuration list for PBXNativeTarget "Practice MidtermTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C330671D1BE05863003B4E41 /* Debug */,
+				C330671E1BE05863003B4E41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C330671F1BE05863003B4E41 /* Build configuration list for PBXNativeTarget "Practice MidtermUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C33067201BE05863003B4E41 /* Debug */,
+				C33067211BE05863003B4E41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C33066C01BE05862003B4E41 /* Project object */;
+}
