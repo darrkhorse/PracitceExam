@@ -22,6 +22,9 @@
 		C33067091BE05863003B4E41 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33067081BE05863003B4E41 /* ExtensionDelegate.swift */; };
 		C330670B1BE05863003B4E41 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C330670A1BE05863003B4E41 /* NotificationController.swift */; };
 		C330670D1BE05863003B4E41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C330670C1BE05863003B4E41 /* Assets.xcassets */; };
+		C33067231BE05F01003B4E41 /* NumberOfMonths.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33067221BE05F01003B4E41 /* NumberOfMonths.swift */; settings = {ASSET_TAGS = (); }; };
+		C33067251BE06786003B4E41 /* TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33067241BE06786003B4E41 /* TableView.swift */; settings = {ASSET_TAGS = (); }; };
+		C33067271BE08198003B4E41 /* timeRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33067261BE08198003B4E41 /* timeRow.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -105,6 +108,9 @@
 		C330670A1BE05863003B4E41 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 		C330670C1BE05863003B4E41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C330670E1BE05863003B4E41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C33067221BE05F01003B4E41 /* NumberOfMonths.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberOfMonths.swift; sourceTree = "<group>"; };
+		C33067241BE06786003B4E41 /* TableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableView.swift; sourceTree = "<group>"; };
+		C33067261BE08198003B4E41 /* timeRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = timeRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -210,9 +216,12 @@
 				C33067061BE05863003B4E41 /* InterfaceController.swift */,
 				C33067081BE05863003B4E41 /* ExtensionDelegate.swift */,
 				C330670A1BE05863003B4E41 /* NotificationController.swift */,
+				C33067221BE05F01003B4E41 /* NumberOfMonths.swift */,
 				C330670C1BE05863003B4E41 /* Assets.xcassets */,
 				C330670E1BE05863003B4E41 /* Info.plist */,
 				C33067041BE05863003B4E41 /* Supporting Files */,
+				C33067241BE06786003B4E41 /* TableView.swift */,
+				C33067261BE08198003B4E41 /* timeRow.swift */,
 			);
 			path = "Practice Midterm WatchKit Extension";
 			sourceTree = "<group>";
@@ -442,8 +451,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				C330670B1BE05863003B4E41 /* NotificationController.swift in Sources */,
+				C33067251BE06786003B4E41 /* TableView.swift in Sources */,
 				C33067091BE05863003B4E41 /* ExtensionDelegate.swift in Sources */,
+				C33067231BE05F01003B4E41 /* NumberOfMonths.swift in Sources */,
 				C33067071BE05863003B4E41 /* InterfaceController.swift in Sources */,
+				C33067271BE08198003B4E41 /* timeRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,16 +1,61 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="6724" systemVersion="14A389" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6711"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3735"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="8092"/>
     </dependencies>
     <scenes>
         <!--Interface Controller-->
         <scene sceneID="aou-V4-d1y">
             <objects>
-                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModuleProvider="target"/>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Practice_Midterm_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <label alignment="center" text="$42000" id="CcJ-Fz-TWz"/>
+                        <picker width="1" height="83" alignment="center" verticalAlignment="center" id="DJx-l6-Xlj">
+                            <connections>
+                                <action selector="pickerDidChange:" destination="AgC-eL-Hgc" id="d9e-Li-rwj"/>
+                            </connections>
+                        </picker>
+                        <label alignment="center" verticalAlignment="bottom" text="$42000" textAlignment="center" id="8ng-2u-SlL"/>
+                    </items>
+                    <connections>
+                        <outlet property="amountPerMonth" destination="8ng-2u-SlL" id="tad-cs-kCE"/>
+                        <outlet property="thePicker" destination="DJx-l6-Xlj" id="UbO-kU-amx"/>
+                        <outlet property="totalAmount" destination="CcJ-Fz-TWz" id="6gk-Nl-h3a"/>
+                        <segue destination="K3D-n0-RBr" kind="relationship" relationship="nextPage" id="xKa-31-lH8"/>
+                    </connections>
+                </controller>
             </objects>
             <point key="canvasLocation" x="220" y="345"/>
+        </scene>
+        <!--Table View-->
+        <scene sceneID="tId-Vr-7NG">
+            <objects>
+                <controller hidesWhenLoading="NO" id="K3D-n0-RBr" customClass="TableView" customModule="Practice_Midterm_WatchKit_Extension">
+                    <items>
+                        <table alignment="left" id="wU5-u8-6Xk">
+                            <items>
+                                <tableRow identifier="cell" id="R4f-qf-XXN" customClass="timeRow" customModule="Practice_Midterm_WatchKit_Extension">
+                                    <group key="rootItem" width="1" alignment="left" contentMode="left" id="HGb-no-OWK">
+                                        <items>
+                                            <label height="20" alignment="left" text="Label" id="ehn-It-H4C"/>
+                                            <label alignment="left" text="Label" id="YGy-xM-XHo"/>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="theLabel" destination="ehn-It-H4C" id="xX6-f8-EQo"/>
+                                        <outlet property="theOtherLabel" destination="YGy-xM-XHo" id="YlH-BF-Gn5"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <connections>
+                        <outlet property="theTable" destination="wU5-u8-6Xk" id="yPP-Ws-AnF"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="401" y="345"/>
         </scene>
         <!--Static Notification Interface Controller-->
         <scene sceneID="AEw-b0-oYE">
@@ -31,7 +76,7 @@
         <!--Notification Controller-->
         <scene sceneID="ZPc-GJ-vnh">
             <objects>
-                <controller id="4sK-HA-Art" customClass="NotificationController" customModuleProvider="target"/>
+                <controller id="4sK-HA-Art" customClass="NotificationController" customModule="Practice_Midterm_WatchKit_App" customModuleProvider="target"/>
             </objects>
             <point key="canvasLocation" x="468" y="643"/>
         </scene>
